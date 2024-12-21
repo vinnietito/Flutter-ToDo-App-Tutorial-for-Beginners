@@ -7,3 +7,5 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('ToDo App')),
+      body: Container(
+        child: Text('This is home screen.'),
