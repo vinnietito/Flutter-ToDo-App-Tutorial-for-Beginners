@@ -9,3 +9,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(title: Text('ToDo App')),
       body: Container(
         child: Text('This is home screen.'),
+      ),
+    );
+  }
+}
